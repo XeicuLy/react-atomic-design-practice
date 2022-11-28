@@ -13,4 +13,5 @@ const SInput = styled.input`
   border-radius: 9999px;
   padding: 8px 16px;
   outline: none;
+  background: #fff;
 `;
