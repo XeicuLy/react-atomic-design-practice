@@ -1,13 +1,17 @@
-import { PrimaryButton } from './components/atoms/button/PrimaryButton';
-import { SecondaryButton } from './components/atoms/button/SecondaryButton';
+import { Router } from './router/Router';
+
+const user = {
+  name: 'XeicuLy',
+  image: 'https://source.unsplash.com/v3-zcCWMjgM',
+  email: '11111@aaa.com',
+  tel: '012-345-6789',
+  company: {
+    name: '何でも株式会社',
+    web: 'web.com',
+  },
+};
 
 const App = () => {
-  return (
-    <>
-      <h1>Hello</h1>
-      <PrimaryButton>ボタン</PrimaryButton>
-      <SecondaryButton>検索</SecondaryButton>
-    </>
-  );
+  return <Router />;
 };
 export default App;
